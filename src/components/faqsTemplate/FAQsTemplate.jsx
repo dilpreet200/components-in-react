@@ -25,7 +25,7 @@ function Icon({ id, open }) {
     </svg>
   );
 }
-const ClassFAQs = ({ data, dataCategory}) => {
+const ClassFAQs = ({ data, dataCategory }) => {
   const [open, setOpen] = React.useState(0);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
