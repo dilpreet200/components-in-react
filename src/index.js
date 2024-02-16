@@ -4,8 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import ClassFAQs from "./components/classFAQs/ClassFAQs";
-import FunctionFAQs from "./components/functionFAQs/FunctionFAQs";
+import ClassFAQs from "./pages/classFAQs/ClassFAQs";
+import FunctionFAQs from "./pages/functionFAQs/FunctionFAQs";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 

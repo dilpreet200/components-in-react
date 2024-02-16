@@ -6,7 +6,10 @@ const ClassFAQs = () => {
   return (
     <>
       <div className="mx-16 my-8">
-        <FAQsTemplate data={classCompData} dataCategory={"Class Component"}></FAQsTemplate>
+        <FAQsTemplate
+          data={classCompData}
+          dataCategory={"Class Component"}
+        ></FAQsTemplate>
       </div>
     </>
   );
