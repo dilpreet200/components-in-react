@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@iconify-json/oi": "^1.1.8",
     "@material-tailwind/html": "^2.2.2",
     "@material-tailwind/react": "^2.1.9",
     "@testing-library/jest-dom": "^5.17.0",
@@ -40,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@iconify/tailwind": "^0.1.4",
     "flowbite-typography": "^1.0.3",
     "tailwindcss": "^3.4.1"
   }

@@ -20,11 +20,7 @@ function App() {
                   Associate Software Engineer at TA Digital
                 </p>
                 <p className="text-base text-gray-500 dark:text-gray-400">
-                  <time
-                    pubdate
-                    dateTime="2022-02-08"
-                    title="February 8th, 2022"
-                  >
+                  <time dateTime="2022-02-08" title="February 8th, 2022">
                     Feb 15, 2024
                   </time>
                 </p>
@@ -44,7 +40,8 @@ function App() {
                 className="w-2/4 mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl "
               >
                 <h2 className="font-medium dark:text-blue-500 hover:underline block mb-2 text-4xl font-semibold text-blue-gray-900">
-                  Class component
+                  Class component{" "}
+                  <span className="link-icon icon-[oi--external-link]"></span>
                 </h2>
               </Link>
               <p className="block font-sans text-base antialiased leading-relaxed text-inherit">
@@ -114,7 +111,8 @@ function App() {
                 className="w-2/4 mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl "
               >
                 <h2 className="font-medium dark:text-blue-500 hover:underline block mb-2 text-4xl font-semibold text-blue-gray-900">
-                  Functional component
+                  Functional component{" "}
+                  <span className="link-icon icon-[oi--external-link]"></span>
                 </h2>
               </Link>
               <p className="block font-sans text-base antialiased leading-relaxed text-inherit">
